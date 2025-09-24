@@ -28,7 +28,7 @@ module.exports = (io) => {
                 }
 
                 await axios.post(
-                    `https://new.midescrow.com.ng/api/mobile/escrow/index.php?action=${endpoint}`,
+                    `https://new.wapay.com.ng/api/mobile/escrow/index.php?action=${endpoint}`,
                     form,
                     { headers: form.getHeaders() }
                 );

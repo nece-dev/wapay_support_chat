@@ -26,8 +26,8 @@ module.exports = (io) => {
 
             // Determine API endpoint
             const endpoint = hasImage
-                ? 'https://app.midescrow.com.ng/api/mobile/escrow/issues.php?action=storeReply'
-                : 'https://app.midescrow.com.ng/api/mobile/escrow/issues.php?action=storeReplyText';
+                ? 'https://new.wapay.com.ng/api/mobile/escrow/issues.php?action=storeReply'
+                : 'https://new.wapay.com.ng/api/mobile/escrow/issues.php?action=storeReplyText';
 
             // Prepare request body
             const body = {
