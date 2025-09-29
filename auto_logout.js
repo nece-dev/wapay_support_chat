@@ -12,7 +12,7 @@ module.exports = (io, app) => {
             const { user_id, device_id } = data;
 
             try {
-                const response = await axios.get(`https://new.midescrow.com.ng/api/mobile/udateuser/bflcoudbfdseut.php?id=${user_id}`);
+                const response = await axios.get(`https://new.wapay.com.ng/api/mobile/udateuser/dhbfweodpsa.php?id=${user_id}`);
 
                 if (response.data && response.data.status === 'success') {
                     const storedDeviceId = response.data.device; // Get device ID from PHP API
